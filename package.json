@@ -1,0 +1,23 @@
+{
+  "name": "async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01-callback.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "build": "babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "babel-plugin-async-to-promises": "^1.0.5",
+    "babel-plugin-transform-async-to-promises": "^0.8.18"
+  }
+}
